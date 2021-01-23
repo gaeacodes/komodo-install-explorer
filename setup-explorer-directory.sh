@@ -30,5 +30,5 @@ export NVM_DIR="$HOME/.nvm"
 # switch node setup with nvm
 nvm install v4
 mkdir -p node_modules
-npm install git+https://git@github.com/DeckerSU/bitcore-node-komodo # npm install bitcore
+npm install git+https://git@github.com/gaeacodes/bitcore-node-komodo # npm install bitcore
 
