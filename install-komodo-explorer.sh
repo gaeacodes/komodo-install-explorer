@@ -54,6 +54,10 @@ nvm use v4
 $CUR_DIR/node_modules/bitcore-node-komodo/bin/bitcore-node create komodo-explorer
 cd komodo-explorer
 $CUR_DIR/node_modules/bitcore-node-komodo/bin/bitcore-node install git+https://git@github.com/gaeacodes/insight-api-komodo git+https://git@github.com/gaeacodes/insight-ui-komodo
+
+cd $CUR_DIR/komodo-explorer/node_modules/insight-api-komodo
+npm install moment
+
 cd $CUR_DIR
 
 cat << EOF > $CUR_DIR/komodo-explorer/bitcore-node.json
