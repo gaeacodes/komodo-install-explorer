@@ -11,7 +11,7 @@ Either create a new Smart Chain or launch an existing one using its launch param
 Example:
 
 ```bash
-./komodo-cli -ac_name=SMARTCHAINNAME stop
+./komodo-cli -ac_name=SMARTCHAINNAME stop 
 ```
 
 The above step creates the '.conf' file for the Smart Chain at `$HOME/.komodo/SMARTCHAINNAME/SMARTCHAINNAME.conf` which will be modified and made use of by the explorer installation script.
