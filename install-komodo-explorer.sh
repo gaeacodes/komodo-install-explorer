@@ -10,7 +10,7 @@ STEP_END='\e[0m'
 CUR_DIR=$(pwd)
 echo "Installing an explorer for komodo in the current directory: $CUR_DIR"
 
-echo -e "$STEP_START[ * ]$STEP_END Modifying $i's '.conf' file at $HOME/.komodo/komodo.conf"
+echo -e "$STEP_START[ * ]$STEP_END Modifying komodo's '.conf' file at $HOME/.komodo/komodo.conf"
 
 
 
